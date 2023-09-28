@@ -15,4 +15,4 @@ for (var i=1; i<=numero; i++){
         suma += i;
         }
 }
-alert(`La sumatoria es de los números pares es: ${suma}`);
+alert(`La sumatoria de todos los números pares desde el 1 hasta el ${numero} es: ${suma}`);
