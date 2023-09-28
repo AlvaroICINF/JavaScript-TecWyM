@@ -19,13 +19,13 @@ function CalcularIMC(estatura, peso) {
     }
 }
 
-estatura=parseFloat(prompt("Ingrese su estatura en centimetros: ")) / 100;
+let estatura=parseFloat(prompt("Ingrese su estatura en centimetros: ")) / 100;
 while (isNaN(estatura) || estatura <= 0.5 || estatura >= 2.70) {
     alert("La estatura no es valida.");
     estatura = parseFloat(prompt("Ingrese su estatura en centimetros: ")) / 100;
   }
 
-peso=parseFloat(prompt("Ingrese su peso en kilogramos: "));
+let peso=parseFloat(prompt("Ingrese su peso en kilogramos: "));
 while (isNaN(peso) || peso <=3 || peso >= 600) {
     alert("El peso no es valido");
     peso = parseFloat(prompt("Ingrese su peso en kilogramos: "));
