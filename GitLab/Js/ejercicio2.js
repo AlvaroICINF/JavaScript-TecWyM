@@ -8,7 +8,13 @@ const palabras = oracion.split(" ");
 
 let numPalabras = 0;
 
+for (let i = 0; i < palabras.length; i++) {
+    const palabra = palabras[i];
+    if (palabra.trim() !== "") {
+        numPalabras++;
+    }
+}
+
 alert(`La Oración ingresada fue: ${oracion}`);
 
-alert(`El Número de palabras es: ${palabras.length}`);
-
+alert(`El Número de palabras es: ${numPalabras}`);
