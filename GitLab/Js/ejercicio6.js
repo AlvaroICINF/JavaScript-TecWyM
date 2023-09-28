@@ -32,19 +32,19 @@ for (let i = 0; i < ingreso; i++) {
 
 //luego de haberlos ingresados, recorreremos el arreglo donde se encuentra los productos para saber
 //si existe alguno en estado crítico
+let critic=[]
 for (let i=0; i<inventario.length;i++){
     let producto= inventario[i];
     let nombre= producto.nombre;
     let cant=producto.stock;
     let cont=0
-    critic=[]
     if (cant<1000){
         critic.push(nombre);
-        alert(`el stock de ${nombre} es crítico`);
+        //alert(`el stock de ${nombre} es crítico`); *OPCIONAL*
         cont+=1
     }
 }
-const critico=critic.join(', ');
+let critico=critic.join(', ');
 if (cont=0){
     alert('El inventario se encuentra en buen estado con los productos con buen stock.');
 }else{
