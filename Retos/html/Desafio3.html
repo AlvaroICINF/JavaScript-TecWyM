@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío 3</title>
+  </head>
+  <body>
+    <h1>Calculadora de Propinas</h1>
+    <form id="calculadora">
+        <label for="costo">Total de la Boleta (CLP): </label>
+        <input type="number" placeholder="Ingrese el total de la boleta" id="costo"  style="width: 180px" required>
+        <label for="porcentaje">Porcentaje de propina: </label>
+        <select id="porcentaje" required>
+            <option value="10">10%</option>
+            <option value="15">15%</option>
+            <option value="20">20%</option>
+        </select>
+    <div>
+        <p></p>
+        <button type="button" style="width:200px" onclick="calculadoraDePropina()">Calcular</button>
+        <button type="button" style="width:200px" onclick="limpiar()">Borrar</button>
+    </div>
+    </form>
+    <div>
+        <p>Propina: <span id="propina"></span></p>
+        <p>Total a pagar: <span id="montoTotal"></span></p>
+    </div>
+    <script src="../Js/Desafio3.js"></script>
+  </body>
+</html>
