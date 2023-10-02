@@ -29,6 +29,5 @@ function calculadoraDePropina() {
 
 function limpiar(){
     document.getElementById('calculadora').reset();
-    document.getElementById('propina').reset();
-    document.getElementById('montoTotal').reset();
+
 }
