@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío 3</title>
+  </head>
+  <body>
+    <h1>Calculadora de IMC</h1>
+    <form id="IMC">
+      <div>
+        <label for="nombre">Nombre: </label>
+        <input type="text" placeholder="Ingrese su nombre" id="nombre"  style="width: 180px" required><br><br>
+      </div>
+      <div>
+        <label for="peso">Peso (Kg): </label>
+        <input type="number" min="0" step="0.01" placeholder="Ingrese su peso en kg" id="peso"  style="width: 180px" required><br><br>
+      </div>
+      <div>
+        <label for="altura">Altura (cm): </label>
+        <input type="number" min="0" step="0.01" placeholder="Ingrese su altura en metros" id="altura"  style="width: 180px" required><br><br>
+      </div>
+      <div>
+        <label for="edad">Edad: </label>
+        <input type="number" min="0" placeholder="Ingrese su edad " id="edad"  style="width: 180px" required><br><br>
+      </div>
+      <div>
+        <label for="genero">Género: </label>
+        <select id="genero" required>
+          <option value="Hombre">Hombre</option>
+          <option value="Mujer">Mujer</option>
+        </select><br><br>
+      </div>
+      <div>
+        <label for="Actividad fisica">Actividad física: </label>
+        <select id="actividad" required>
+          <option value="Sedentario">Sedentario</option>
+          <option value="Moderado">Moderado</option>
+          <option value="Activo">Activo</option>
+        </select><br><br>
+      </div>
+      <div>
+        <button type="button" onclick="calculadoraDeImc()" style="width: 150px;">Calcular</button>
+        <button type="button" style="width:150px" onclick="limpiar()">Borrar</button>
+      </div>
+    
+    </form>
+    <p id="replace"></p>
+    
+    <script src="../Js/Desafio4.js"></script>
+  </body>
+</html>
