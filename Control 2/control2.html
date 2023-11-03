@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control 2 </title>
+  </head>
+  <body>
+    <h1>Generador de contraseña</h1>
+    <form id="password">
+      <div><!--Se crea las restricciones y opciones del programa-->
+        <label for="long">Longitud de la contraseña: </label>
+        <input type="number" placeholder="8" id="long"  style="width: 30px" min="8" max="20" required><br><br>
+      </div>
+      <div><!--Incluimos checkbox-->
+        <label for="high">Incluir letras Mayúsculas: </label>
+        <input type="checkbox" id="high"><br><br>
+
+        <label for="low">Incluir letras Minúsculas </label>
+        <input type="checkbox" id="low" ><br><br>
+      
+        <label for="number">Incluir Números: </label>
+        <input type="checkbox" id="number"><br><br>
+      
+        <label for="stre">Incluir Caracteres Especiales: </label>
+        <input type="checkbox" id="stre"><br><br>
+      </div>
+      <div>
+        <!--botton vinculado con la funcion en js GeneratorPassword-->
+        <button type="button" style="width:150px" onclick="GeneratorPassword()">Generar Contraseña</button>
+      </div>
+    
+    </form><!--Reemplazamos con innerhtml-->
+    <p id="replace"></p>
+    
+    <script src="password.js"></script>
+  </body>
+</html>
