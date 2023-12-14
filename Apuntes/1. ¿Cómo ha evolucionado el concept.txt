@@ -1,0 +1,10 @@
+1. ¿Cómo ha evolucionado el concepto de usabilidad a lo largo del tiempo?
+R: Este concepto a evolucionado debido a los avances en el desarrollo de software que le han dado un grado de dificutad para todo usaurio, haciendo que el concepto de usabilidad se adapte con el carácter de ser amigable para dicho usuario, provocando en la creación de aplicaciones intuitivas sin necesidad de ayudas adjuntas. Su evolución se puede ver entre el 1985 y 2020, por ejemplo, Norman proponía el concepto de usabilidad como medición de la experiencia del usuario al momento de interactuar con el sistema. En 2001, la norma ISO 9126-1 hace referencia de la usabilidad, como la capacidad de un sistema para ser comprendido por el usuario, considerando su facilidad y su estetica. Ya en el 2018 la norma ISO 9241-11, determina la usabilidad como la medida del sistema al ser utilizado por un usuario en específico con un fin específico obteniendo efectividad y satisfación para el usuario. En definitiva, el software trabaja para el usuario como herramienta.
+
+2.¿Cómo han evolucionado los parámetros de evaluación de la usabilidad del software?
+
+R:Eficiencia, efectividad y satisfación
+
+3.¿Cúal es la importancia de la usabilidad en el diseño de interfaces y en la interacción humano-computadoras?
+
+R: El concepto ha dejado de medir la capacidad de uso del sistema, pasando a ser más necesaria, considerando barreras como el lenguaje, ubicación y contexto. Buscando garantizar la eficiencia, eficacia y satisfacción de uso del usuario minimizando obstaculos y trabajo. Por último se transformó en la base fundamental teórica para los desarrolladores de software.
