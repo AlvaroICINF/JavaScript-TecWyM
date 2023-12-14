@@ -31,6 +31,8 @@ function clasificacionDelImc(imc){
         return "Se encuentra en sobrepeso ";
     }else if (imc>=30){
         return "Se encuentra con obesidad ";
+    }else{
+        alert('ERROR: Datos incorrectos')
     }
 }
 
